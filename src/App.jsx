@@ -141,8 +141,129 @@ function App() {
   </div>
 
 </section>
+{/* Pricing Section */}
+<section id="pricing" className="py-5 bg-light">
+  <div className="container">
+
+    <h2 className="text-center fw-bold mb-5">
+      Pricing Plans
+    </h2>
+
+    <div className="row g-4">
+
+      <div className="col-md-4">
+        <div className="card text-center shadow h-100">
+          <div className="card-body">
+            <h3>Basic</h3>
+            <h1 className="text-primary">$19</h1>
+            <p>✔ Responsive Website</p>
+            <p>✔ Email Support</p>
+            <button className="btn btn-outline-primary">
+              Choose Plan
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4">
+        <div className="card text-center shadow border-primary h-100">
+          <div className="card-body">
+            <h3>Pro</h3>
+            <h1 className="text-success">$49</h1>
+            <p>✔ Everything in Basic</p>
+            <p>✔ Database Integration</p>
+            <p>✔ Priority Support</p>
+            <button className="btn btn-success">
+              Most Popular
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-md-4">
+        <div className="card text-center shadow h-100">
+          <div className="card-body">
+            <h3>Enterprise</h3>
+            <h1 className="text-danger">$99</h1>
+            <p>✔ Custom Development</p>
+            <p>✔ Cloud Hosting</p>
+            <p>✔ 24/7 Support</p>
+            <button className="btn btn-outline-danger">
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+{/* Contact */}
+<section id="contact" className="container py-5">
+
+  <h2 className="text-center fw-bold mb-5">
+    Contact Us
+  </h2>
+
+  <div className="row justify-content-center">
+
+    <div className="col-md-6">
+
+      <form>
+
+        <input
+          type="text"
+          className="form-control mb-3"
+          placeholder="Your Name"
+        />
+
+        <input
+          type="email"
+          className="form-control mb-3"
+          placeholder="Email Address"
+        />
+
+        <textarea
+          className="form-control mb-3"
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+
+        <button className="btn btn-primary w-100">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+{/* Footer */}
+      <footer className="bg-dark text-white text-center py-4">
+        <h5>TechNova</h5>
+
+        <p>Building Modern Digital Experiences</p>
+
+        <div className="mb-3">
+          <i className="bi bi-facebook fs-3 me-3"></i>
+
+          <i className="bi bi-instagram fs-3 me-3"></i>
+
+          <i className="bi bi-linkedin fs-3 me-3"></i>
+
+          <i className="bi bi-github fs-3"></i>
+        </div>
+
+        <p className="mb-0">
+          © 2026 TechNova. All Rights Reserved.
+        </p>
+      </footer>
     </>
   );
+ 
 }
 
 export default App;
