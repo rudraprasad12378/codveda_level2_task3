@@ -2,7 +2,7 @@ function App() {
   return (
     <>
       {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container">
           <a className="navbar-brand fw-bold" href="#">
             TechNova
@@ -48,19 +48,23 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="container text-center py-5">
-        <h1 className="display-4 fw-bold">
-          Build Modern Websites
-        </h1>
+      <section className="py-5 text-center bg-primary text-white">
+  <div className="container">
 
-        <p className="lead text-muted mt-3">
-          Responsive, fast and beautiful web applications using React and Bootstrap.
-        </p>
+    <h1 className="display-3 fw-bold">
+      Build Modern Websites
+    </h1>
 
-        <button className="btn btn-primary btn-lg mt-3">
-          Get Started
-        </button>
-      </section>
+    <p className="lead mt-3">
+      We create responsive, modern and scalable web applications.
+    </p>
+
+    <button className="btn btn-light btn-lg mt-3">
+      Get Started
+    </button>
+
+  </div>
+</section>
       {/* Services Section */}
 <section id="services" className="py-5 bg-light">
   <div className="container">

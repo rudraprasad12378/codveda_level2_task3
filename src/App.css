@@ -182,3 +182,22 @@
     border-right-color: var(--border);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+.card {
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,.2);
+}
+
+.btn {
+  transition: .3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
